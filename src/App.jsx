@@ -5,6 +5,7 @@ import { Usuarios } from './pages/Usuarios/Usuarios';
 import {Blog} from "./pages/Blog/Blog"
 import { Contato } from './pages/Contato/Contato';
 import { Home } from './pages/Home/Home';
+import { Login } from './pages/Login/Login';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/contato" element={<Contato/>}/>
           <Route path="/usuarios" element={<Usuarios/>}/>
+          <Route path="/login" element={<Login/>}/>
         </Routes>
       </BrowserRouter>   
       </div>
